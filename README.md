@@ -23,9 +23,9 @@ _FIR input and output interfaces extracted from the design specification._
 
 For coefficients `weights`, the filter computes
 
-\[
+$$
 y[n] = \sum\_{k=0}^{N-1} w[k]x[n-k].
-\]
+$$
 
 Input samples and coefficients are signed 16-bit values. The accumulator and output are signed 32-bit values. Coefficients and tap count are selected at elaboration through `Seq[Int]`; they are not runtime-programmable registers. The supplied generators and tests use `[1, 2, 3]`.
 
@@ -53,9 +53,9 @@ _UART transmitter interface from the design specification. The implementation ad
 
 The baud counter reload value is
 
-\[
+$$
 \mathrm{BIT_CNT}=\left\lfloor\frac{f\_{clk}+\mathrm{baud}/2}{\mathrm{baud}}\right\rfloor-1.
-\]
+$$
 
 | Configuration               | Parameters                              | Clocks per bit |
 | --------------------------- | --------------------------------------- | -------------: |
