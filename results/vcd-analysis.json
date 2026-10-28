@@ -1,0 +1,87 @@
+{
+  "FIR": {
+    "source": "results/archive/test_run_dir/FIRTestApp1486677034/FIR.vcd",
+    "sha256": "d278c3504fc5166b4e506d07d0eb912548c7d46204ead455727ec60e682aa21f",
+    "last_timestamp_ns": 206,
+    "inputs": [
+      {
+        "time_ns": 61,
+        "value": 10
+      },
+      {
+        "time_ns": 111,
+        "value": 20
+      },
+      {
+        "time_ns": 161,
+        "value": 30
+      }
+    ],
+    "outputs": [
+      {
+        "time_ns": 101,
+        "value": 10
+      },
+      {
+        "time_ns": 151,
+        "value": 40
+      },
+      {
+        "time_ns": 201,
+        "value": 100
+      }
+    ]
+  },
+  "Top": {
+    "source": "results/archive/test_run_dir/TopTestApp726388580/Top.vcd",
+    "sha256": "b5ff7ac15c113c7585e7f9206ea956fb45036d68da7d5744196b812a6e31d7b3",
+    "last_timestamp_ns": 4456,
+    "inputs": [
+      {
+        "time_ns": 61,
+        "value": 10
+      }
+    ],
+    "frames": [
+      {
+        "start_ns": 151,
+        "byte": 10,
+        "stop_bit": 1
+      },
+      {
+        "start_ns": 1251,
+        "byte": 0,
+        "stop_bit": 1
+      },
+      {
+        "start_ns": 2351,
+        "byte": 0,
+        "stop_bit": 1
+      },
+      {
+        "start_ns": 3451,
+        "byte": 0,
+        "stop_bit": 1
+      }
+    ],
+    "reconstructed_word": 10
+  },
+  "BufferedTx": {
+    "source": "results/archive/test_run_dir/UARTTestApp2026134959/BufferedTx.vcd",
+    "sha256": "acfa05d9c7aeca72695a6941768039545f3840d67a0058158c89078cbace7828",
+    "last_timestamp_ns": 1156,
+    "inputs": [
+      {
+        "time_ns": 61,
+        "value": 85
+      }
+    ],
+    "frames": [
+      {
+        "start_ns": 151,
+        "byte": 85,
+        "stop_bit": 1
+      }
+    ]
+  }
+}

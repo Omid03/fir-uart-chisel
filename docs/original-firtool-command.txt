@@ -1,0 +1,1 @@
+firtool BufferedTx.fir -O=release --strip-debug-info --split-verilog --disable-all-randomization -o Verilog
